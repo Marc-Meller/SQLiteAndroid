@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SQLite Prueba</string>
+    
+    <string name="Cursos">Cursos</string>
+    <string name="Codigo">Codigo</string>
+    <string name="Curso">Curso</string>
+    <string name="Carrera">Carrera</string>
+
+    <string name="EditCodigo"> -- </string>
+    <string name="EditCurso"> -- </string>
+    <string name="EditCarrera"> -- </string>
+
+    <string name="BtnAgregar">AGREGAR</string>
+    <string name="BtnEliminar">ELIMINAR</string>
+    <string name="BtnMostrar">MOSTRAR</string>
+    <string name="BtnEditar">EDITAR</string>
+
+
+    <string name="TXTCurso">Text view</string>
+    <string name="TXTtCarrera">Text view</string>
+    <string name="TXTCodigo">Text view</string>
+
+
+</resources>

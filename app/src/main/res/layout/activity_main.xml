@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/Cursos"
+            android:text="@string/Cursos"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/Codigo"
+            android:text="@string/Codigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/EditCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/EditCodigo"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/Curso"
+            android:text="@string/Curso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/EditCurso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/EditCurso"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/Carrera"
+            android:text="@string/Carrera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/EditCarrera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/EditCarrera"
+            android:minHeight="48dp" />
+
+
+        <Button
+            android:id="@+id/BtnAgregar"
+            android:text="@string/BtnAgregar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/BtnEditar"
+            android:text="@string/BtnEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/BtnEliminar"
+            android:text="@string/BtnEliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/BtnMostrar"
+            android:text="@string/BtnMostrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>
